@@ -6,6 +6,7 @@ function Xtable = convert2able(X)
 % This function adds Row and Column labels to a numeric matrix.
 % The row labels are of the form 'R#' (e.g., R1, R2, ...). Analogously,
 % for the columns the labels have the form 'Y#'.
+%
     
 Table = istable(X);
 
